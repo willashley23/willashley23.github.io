@@ -1,0 +1,55 @@
+.container {
+  background-image: url('trails.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1500px;
+  width:100%;
+  position: absolute; 
+  background-repeat: no-repeat;
+  display: inline-block;
+
+}
+h1 {
+  font-size: 3.5em;
+  margin: auto;
+  position: relative;
+  left: 80px;
+  width: 50%;
+}
+
+#intro {
+  font-size: 1.2em;
+}
+
+a:visited {
+    color: green;
+}
+
+form {
+  padding: 10px;
+}
+#comment {
+ font-size: 1.0em;
+}
+
+ol {
+  margin: 10px;
+}
+
+h1, h2, h3, #comment, #intro, p {
+  font-family: helvetica;
+}
+
+@media only screen and (max-width : 800px) {
+  h1{
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: .8em;
+  }     
+}
+
+ 
