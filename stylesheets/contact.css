@@ -1,0 +1,46 @@
+
+body {
+  background-image: url("../images/trails.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  text-transform:uppercase;
+  color: #FFF;
+  text-decoration: none;
+  text-decoration-color: -moz-use-text-color;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  font-size: 80px;
+}
+
+li {  
+  font-size: 50px;
+  list-style: none;
+  color: #FFF;
+}
+
+p, li {
+  font-family: "JockeyOne-Regular";
+  text-shadow: 0px 0px 60px rgba(164, 204, 244, 0.5), 1px 1px 0px #0b335b, 2px 2px 0px #0b335b, 3px 3px 0px #0b335b, 4px 4px 0px #0b335b;
+}
+
+li {
+  text-shadow: red;
+}
+
+#email {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+
+@media only screen and (max-width : 1420px) {
+    body {
+      background-position: center;
+      background-size: none;
+      padding-bottom: 590px;
+    }
+    
+}
