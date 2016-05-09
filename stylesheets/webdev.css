@@ -1,0 +1,58 @@
+body {
+  background-image: url('../images/portrait2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#col {
+  font-family: "Code-Bold";
+  position: relative;
+  top: 150px;
+}
+
+#col h1 {
+  font-size: 65px;
+  width: 540px;
+  position: relative;
+  right: 70px;
+}
+
+#col p {font-size: 25px;}
+
+@media only screen and (max-width : 2048px) {
+    
+    body {
+      background-size: none;
+      padding-bottom: 500px;
+      background-position: center;
+    }
+    #col {float: right;}
+}  
+
+@media only screen and (max-width : 990px) {
+    #col {
+      float: right;
+      top: 185px;
+    }
+}
+
+@media only screen and (max-width : 776px) {
+    
+    body {
+      background-size: cover;
+      padding-top: 0px;
+      padding-bottom: 400px;
+      background-position: center;
+    }
+
+    #col {
+      float: right;
+      top: 215px;
+    }
+
+    #col h1 {
+      font-size: 65px;
+      width: 440px;
+      right: 00px;
+    }
+}  
