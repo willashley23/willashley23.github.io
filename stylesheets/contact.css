@@ -44,3 +44,13 @@ li {
     }
     
 }
+
+@media only screen and (max-width : 1420px) {
+    p {
+      font-size: 40px;
+    }
+    li {
+      font-size: 30px;
+    }
+    
+}
