@@ -61,20 +61,20 @@ body {
 @media only screen and (max-width: 376px) {
 
   body {
-    left: 50px;
-    padding-bottom: 100px;
+    background-position: 45% 45%;
+    padding-bottom: 390px;
   }
 
   #col h1 {
     font-size: 33px;
-    bottom: 190px;
-    right: 176px;
+    bottom: 165px;
+    right: 167px;
   }
 
   #col p {
     font-size: 15px;
     position: relative;
-    bottom: 145px;
+    bottom: 100px;
   }
 
   #col {
