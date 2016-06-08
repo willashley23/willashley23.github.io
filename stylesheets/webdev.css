@@ -56,3 +56,29 @@ body {
       right: 00px;
     }
 }  
+
+
+@media only screen and (max-width: 376px) {
+
+  body {
+    left: 50px;
+    padding-bottom: 100px;
+  }
+
+  #col h1 {
+    font-size: 33px;
+    bottom: 190px;
+    right: 176px;
+  }
+
+  #col p {
+    font-size: 15px;
+    position: relative;
+    bottom: 145px;
+  }
+
+  #col {
+    padding-bottom: none;
+  }
+
+}
