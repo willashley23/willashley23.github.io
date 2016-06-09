@@ -106,8 +106,46 @@ a:hover {color: black;}
    width: 100%;
    left: 0;
  }
+
 }
 
+@media only screen and (max-width: 375px) {
+  body {
+    background-position: center;
+    background-size: cover;
+  }
 
+  li {
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+  }
+
+  .container-fluid {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 65px;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+    margin: none;
+  }
+
+  #column {
+    width: 238%;
+    position: relative;
+    right: 165px;
+    top: 190px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+}
 
 
