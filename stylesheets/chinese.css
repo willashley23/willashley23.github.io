@@ -105,3 +105,19 @@ li {
       vertical-align: middle;
     }
 }  
+
+@media only screen and (max-width : 375px) {
+
+    .header h1 {
+      font-size: 95px;
+    }
+
+    .categories {
+      font-size: 22px;
+    }
+
+    p, li {
+      font-size: 10px;
+    }
+
+}
