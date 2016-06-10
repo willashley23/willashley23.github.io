@@ -117,7 +117,7 @@ a:hover {color: black;}
   }
 
   #column {
-    width: 213%;
+    width: 212%;
     position: relative;
     right: 166px;
     top: 650px;
@@ -133,10 +133,25 @@ a:hover {color: black;}
 }
 
 /*iPad*/
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 770px) {
   body {
-    padding-bottom: 570px;
-    position: center-left;
+    padding-bottom: 1000px;
+    background-position: center;
+  }
+
+  .container-fluid {
+    width: 60%;
+  }
+
+  h1 {
+    position: relative;
+    left: 20px;
+    bottom: 90px;
+  }
+
+  #column {
+    top: 410px;
+    width: 179%;
   }
 }
 
