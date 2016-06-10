@@ -1,10 +1,6 @@
 
 body {
 background-image: url("../images/home.jpg");
-/*margin: 0;
-padding: 0;
-background-repeat: no-repeat;
-background-size: cover; */
 background-repeat: no-repeat;
 background-position: center left; 
 position: relative;
@@ -34,7 +30,7 @@ p {
   font-size: 35px;
   color: white;
   text-decoration: none;
-  font-family: "Yellowtailregular";
+  font-family: "League Gothic";
 }
 
 .row {
