@@ -69,8 +69,7 @@ This license is copied below, and is also available with a FAQ at: http://script
 
 @font-face {
     font-family: 'League Gothic';
-    src: url('../fonts/leaguegothic-regular-webfont.eot');
-    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/leaguegothic-regular-webfont.eot'),
          url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
          url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
          url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
