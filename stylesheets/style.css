@@ -1,10 +1,10 @@
 
 body {
-background-image: url("../images/home.jpg");
-background-repeat: no-repeat;
-background-position: center left; 
-position: relative;
-padding-bottom: 570px;
+  background-image: url("../images/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center left; 
+  position: relative;
+  padding-bottom: 570px;
 }
 
 .container-fluid {
@@ -102,10 +102,51 @@ a:hover {color: black;}
    width: 100%;
    left: 0;
  }
+}
+
+/*iPad Pro*/
+@media only screen and (max-width : 1024px) {
+  body {
+    background-size: cover;
+    padding-bottom: 1293px;
+    background-position: center;
+  }
+
+  .container-fluid {
+    width: 50%;
+  }
+
+  #column {
+    width: 213%;
+    position: relative;
+    right: 166px;
+    top: 650px;
+  }
+
+  h1 {
+    font-size: 120px;
+    position: relative;
+    bottom: 30px;
+    left: 150px;
+  }
 
 }
 
-@media only screen and (max-width: 375px) {
+/*iPad*/
+@media only screen and (max-width : 768px) {
+  body {
+    padding-bottom: 570px;
+    position: center-left;
+  }
+}
+
+/*iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {
+
+}
+
+/*iPhone 6*/
+@media only screen and (max-width : 375px) {
   body {
     background-position: center;
     background-size: cover;
@@ -144,4 +185,9 @@ a:hover {color: black;}
   }
 }
 
+
+/*iPhone 5*/
+@media only screen and (max-width : 320px) {
+
+}
 
