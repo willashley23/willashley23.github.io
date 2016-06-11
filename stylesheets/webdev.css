@@ -1,42 +1,55 @@
 body {
-  background-image: url('../images/portrait2.jpg');
-  background-size: cover;
+  background-color: #333 !important;
   background-repeat: no-repeat;
 }
 
-#col h1 {
-  font-size: 65px;
-  width: 540px;
-  position: relative;
-  right: 70px;
-}
+/* Former background image, also set to cover
+background-image: url('../images/portrait2.jpg'); */
 
 #col {
-  font-family: "Code-Bold";
-  position: relative;
-  top: 150px;
+  font-family: "JockeyOne-Regular";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 640px;
 }
 
-#col p {font-size: 25px;}
+#col h1 {
+  font-size: 105px;
+  position: relative;
+  color: white;
+}
 
-#letters .char8 {
+#col p {
+  font-size: 35px;
+  width: 100%;
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+
+#letters .char9 {
   color: #94C472;
 }
-#letters .char9 {
+#letters .char10 {
   color: #B33E92;
 }
-#letters .char10 {
+#letters .char11 {
   color: #D18D61;
 }
-#letters .char11 {
-  color: #DA3C40;
-}
 #letters .char12 {
-  color: #1AAAA2;
+  color: #DA3C40;
 }
 #letters .char13 {
   color: #1AAAA2;
 }
+#letters .char14 {
+  color: #1AAAA2;
+}
+
+p {color: white;}
 
 @media only screen and (max-width : 2048px) {
     
