@@ -1,10 +1,15 @@
+/*Design notes: Make page into SPA, change beginnign
+paragraph to be shorter, maybe one line, and wider,
+list each project, the technologies used, an image 
+preview, description, and a link. Divide each project
+by a solid line and go straight down, or do a downwards
+zig-zag pattern. Dont even bother fixing media queries
+and responsiveness till you have projects*/
+
 body {
   background-color: #333 !important;
   background-repeat: no-repeat;
 }
-
-/* Former background image, also set to cover
-background-image: url('../images/portrait2.jpg'); */
 
 #col {
   font-family: "JockeyOne-Regular";
@@ -53,6 +58,62 @@ background-image: url('../images/portrait2.jpg'); */
 
 p {color: white;}
 
+#letters .char19 {
+  font-weight: 100;
+  font-size:115px;
+  color: white;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
 @media only screen and (max-width : 2048px) {
     
     body {
@@ -63,6 +124,7 @@ p {color: white;}
     #col {float: right;}
 }  
 
+/*These are broken, will be fixed when the page is COMPLETE*/
 @media only screen and (max-width : 990px) {
     #col {
       float: right;

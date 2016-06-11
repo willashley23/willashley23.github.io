@@ -11,8 +11,8 @@
 	$.fn.shuffleLetters = function(prop){
 		
 		var options = $.extend({
-			"step"		: 23,			// How many times should the letters be changed
-			"fps"		: 45,			// Frames Per Second
+			"step"		: 20,			// How many times should the letters be changed
+			"fps"		: 25,			// Frames Per Second
 			"text"		: "", 			// Use this text instead of the contents
 			"callback"	: function(){$("#letters").lettering()}	// Run once the animation is complete
 		},prop)
