@@ -9,7 +9,7 @@ background-image: url('../images/portrait2.jpg'); */
 #col {
   font-family: "JockeyOne-Regular";
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -17,7 +17,7 @@ background-image: url('../images/portrait2.jpg'); */
 }
 
 #col h1 {
-  font-size: 105px;
+  font-size: 100px;
   position: relative;
   color: white;
 }
@@ -26,26 +26,26 @@ background-image: url('../images/portrait2.jpg'); */
   font-size: 35px;
   width: 100%;
   position: relative;
-  top: 60px;
+  top: 40px;
   left: 20px;
 }
 
-#letters .char9 {
+#letters .char10 {
   color: #94C472;
 }
-#letters .char10 {
+#letters .char11 {
   color: #B33E92;
 }
-#letters .char11 {
+#letters .char12 {
   color: #D18D61;
 }
-#letters .char12 {
+#letters .char13 {
   color: #DA3C40;
 }
-#letters .char13 {
+#letters .char14 {
   color: #1AAAA2;
 }
-#letters .char14 {
+#letters .char15 {
   color: #1AAAA2;
 }
 
