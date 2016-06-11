@@ -8,6 +8,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
   <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+  <script type="text/javascript" src="jquery.lettering-0.6.min.js"></script>
+   <script>
+      $(document).ready(function() {
+        $("#letters").lettering();
+      });
+  </script>
 </head>
 <body>
 
@@ -16,7 +23,7 @@
   <div class="row">
 
     <div class="col-lg-4 col-md-5 col-sm-5 col-xs-5" id ="col">
-      <h1 class = "animated fadeInDown">{Hello World!}</h1>
+      <h1 class = "animated fadeInDown" id = "letters">{Hello World!}</h1>
       <p class = "animated fadeInUp">I am an aspiring web developer in the making. As of May, I have experience with HTML, CSS, Javascript, jQuery, Ruby, and Git. I am learning Node in my own time, and am familiar with Java and C++. Currently, this website is my only project. In the future, all projects of mine will be linked here!</p>
     </div>
 
