@@ -1,3 +1,11 @@
+/*Notes: Consider SPA redesign with zig zag cascade
+This page may be removed after A/a. 
+To do: 
+responsiveness for:
+ iPad pro
+ iPad
+ iPhone 6 Plus
+ iPhone 6 redux*/
 body {
   background-image: url('../images/memorial.jpg');
   background-repeat: no-repeat;
