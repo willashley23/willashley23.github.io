@@ -10,10 +10,12 @@ body {
   background-color: #333 !important;
   background-repeat: no-repeat;
   padding-bottom: 0px;
+  height: 3000px;
 }
 
 .row-wrapper {
   height: 70px;
+  opacity: 0;
 }
 .project1-header{
   color: white;
@@ -58,11 +60,6 @@ body {
 
 #col {
   font-family: "JockeyOne-Regular";
-  /*top: 33%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  width: 640px;*/
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
