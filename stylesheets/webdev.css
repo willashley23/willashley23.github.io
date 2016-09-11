@@ -9,24 +9,71 @@ and responsiveness till you have projects*/
 body {
   background-color: #333 !important;
   background-repeat: no-repeat;
+  padding-bottom: 0px;
+}
+
+.row-wrapper {
+  height: 70px;
+}
+.project1-header{
+  color: white;
+  font-size: 50px;
+  font-family: "JockeyOne-Regular";
+  width: 66%;
+  height: 30px;
+  float: right;
+  margin-top: 100px;
+}
+
+.project1-subheader {
+  color: white;
+  width: 66%;
+  float: right;
+}
+
+.project1-description {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.project1 .turnout {
+  height: 230px;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 50px;
+  position: absolute;
+  right: 1000px;
+  top: 360px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+}
+
+.project1-link {
+  display: block;
+  height: 230px;
+  width: 400px;
+  cursor: pointer;
 }
 
 #col {
   font-family: "JockeyOne-Regular";
-  position: absolute;
-  top: 33%;
+  /*top: 33%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  width: 640px;
+  width: 640px;*/
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #col h1 {
   font-size: 100px;
   position: relative;
   color: white;
-  width: 150%;
-
+  width: 100%;
+  text-align: center;
 }
 
 #col p {
@@ -35,6 +82,10 @@ body {
   position: relative;
   top: 40px;
   left: 35px;
+}
+
+.project1 {
+  width: 100%;
 }
 
 #letters .char10 {
@@ -125,55 +176,4 @@ p {color: white;}
 }  
 
 /*These are broken, will be fixed when the page is COMPLETE*/
-@media only screen and (max-width : 990px) {
-    #col {
-      float: right;
-      top: 185px;
-    }
-}
-
-@media only screen and (max-width : 776px) {
-    
-    body {
-      background-size: cover;
-      padding-top: 0px;
-      padding-bottom: 400px;
-      background-position: center;
-    }
-
-    #col {
-      float: right;
-      top: 215px;
-    }
-
-    #col h1 {
-      font-size: 65px;
-      width: 440px;
-      right: 00px;
-    }
-}  
-
-@media only screen and (max-width: 376px) {
-
-  body {
-    background-position: 45% 45%;
-    padding-bottom: 390px;
-  }
-
-  #col h1 {
-    font-size: 33px;
-    bottom: 165px;
-    right: 167px;
-  }
-
-  #col p {
-    font-size: 15px;
-    position: relative;
-    bottom: 100px;
-  }
-
-  #col {
-    padding-bottom: none;
-  }
-
-}
+/**/
