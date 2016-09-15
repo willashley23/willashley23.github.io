@@ -1,11 +1,3 @@
-/*Design notes: Make page into SPA, change beginnign
-paragraph to be shorter, maybe one line, and wider,
-list each project, the technologies used, an image 
-preview, description, and a link. Divide each project
-by a solid line and go straight down, or do a downwards
-zig-zag pattern. Dont even bother fixing media queries
-and responsiveness till you have projects*/
-
 body {
   background-color: #333 !important;
   background-repeat: no-repeat;
@@ -13,46 +5,66 @@ body {
   height: 3000px;
 }
 
+.outer-flex {
+  padding-top: 100px;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+}
+
 .row-wrapper {
   height: 70px;
 }
+
 .project1-header, .project2-header {
   color: white;
   font-size: 50px;
   font-family: "JockeyOne-Regular";
-  width: 66%;
   height: 30px;
-  float: right;
   margin-top: 100px;
 }
 
 .project1-subheader, .project2-subheader {
   color: white;
-  width: 66%;
-  float: right;
+}
+
+.project1-subheader {
+  margin-top: 35px;
+}
+
+.headers {
+  margin-left: 442px;
 }
 
 .project1-description, .project2-description {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 400;
+  margin-right: 40px;
 }
 
 .project1-description {
   height: 200px;
 }
 
+.project2-description {
+  margin-right: 0px;
+}
+
 .project1 .turnout {
   height: 230px;
   width: 400px;
-  margin-top: 100px;
-  margin-left: 50px;
-  position: absolute;
-  right: 1000px;
-  top: 360px;
   border-radius: 4px;
   border: 1px solid grey;
   box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+}
+
+.turnout {
+  margin-top: -25px;
 }
 
 .project1-link {
@@ -63,14 +75,14 @@ body {
 }
 
 .project2-header {
- width: 100%;
  height: auto;
  margin-top: 0px;
 }
 
 .asteroids {
-  /*top: 600px;
-  float: right;*/
+  margin-right: 40px;
+  margin-left: 0px;
+  margin-top: -10px;
   height: 230px;
   width: 400px;
   border-radius: 4px;
@@ -78,38 +90,36 @@ body {
   box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
 }
 
-.project2-link {
-  margin-right: 40px;
+.project2-link, .project1-link {
+ 
   margin-left: 40px;
   margin-top: -90px;
 }
 
-.project2-description {
-  line-height: 22px;
+.project2-description, .project1-description {
+  line-height: 25px;
+  margin-left: 42px;
+}
+
+h2, h3 {
   margin-left: 42px;
 }
 
 .project2-subheader {
   margin-top: 4px;
   margin-bottom: 0px;
-  position: relative;
-  left: 195px;
-}
-
-.project2-header {
-  position: relative;
-  left: 680px;
-  top: 10px;
 }
 
 .project2 {
-  margin-top: 20%;
   width: 100%;
-  display: flex;
 }
 
 .project2-wrapper {
   opacity: 0;
+}
+
+.p2 {
+  margin-left: 0px;
 }
 
 #col {
@@ -215,16 +225,3 @@ p {color: white;}
     color: white;
   }
 }
-
-/*@media only screen and (max-width : 2048px) {
-    
-    body {
-      background-size: none;
-      padding-bottom: 500px;
-      background-position: center;
-    }
-    #col {float: right;}
-} */ 
-
-/*These are broken, will be fixed when the page is COMPLETE*/
-/**/
