@@ -9,8 +9,8 @@
     padding: 40px;
     background-color: black;
     opacity: .4;
-    font-family: "League Gothic";
-    font-size: 27px;
+    font-family: "Benton Sans";
+    font-size: 20px;
     color: whitesmoke; 
 }
 .cb-slideshow li {
@@ -51,8 +51,8 @@
     animation: titleAnimation 48s linear infinite 0s; 
 }
 .cb-slideshow li div h3 { 
-    font-family: 'Yellowtailregular';
-    font-size: 170px;
+    font-family: 'karbonsemibold';
+    font-size: 100px;
     padding: 0;
     line-height: 200px; 
 }

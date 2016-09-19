@@ -19,7 +19,7 @@ body {
 
 h1 {
   font-size: 90px;
-  font-family: "Yellowtailregular";
+  font-family: "karbonsemibold";
   color: white;
   text-decoration: none;
   margin-bottom: 0px;
@@ -31,10 +31,11 @@ h1 {
 }
 
 p {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
   text-decoration: none;
-  font-family: "League Gothic";
+  font-family: "Benton Sans";
+  font-weight: 400;
 }
 
 .row {
@@ -43,6 +44,7 @@ p {
 
 #column {
   background: rgba(51,51,51,0.7);
+  margin-left: 25px; 
   -webkit-animation-delay: 750ms;
   -moz-animation-delay: 750ms;
   -webkit-animation-duration: 1500ms;
@@ -59,7 +61,10 @@ ul {
 }
 
 li {
-  font-family: "Code-Bold";
+  font-family: "karbonsemibold";
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
   font-size: 17px;
   width: 25%;
   float: left;

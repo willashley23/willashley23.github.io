@@ -24,14 +24,15 @@ body {
 }
 
 .categories {
-  font-family: "Yellowtailregular";
-  font-size: 45px;
+  font-family: "karbonsemibold";
+  font-size: 40px;
   color: white;
 }
 
 p, li { 
   color: white;
   font-size: 17px;
+  font-family: "Benton Sans";
 }
 
 li {
