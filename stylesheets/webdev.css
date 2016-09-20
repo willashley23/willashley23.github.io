@@ -20,7 +20,7 @@ body {
   height: 70px;
 }
 
-.project1-header, .project2-header {
+.project1-header, .project2-header, .project3-header {
   color: white;
   font-size: 50px;
   font-family: "JockeyOne-Regular";
@@ -28,11 +28,11 @@ body {
   margin-top: 100px;
 }
 
-.project1-subheader, .project2-subheader {
+.project1-subheader, .project2-subheader, .project3-subheader {
   color: white;
 }
 
-.project1-subheader {
+.project1-subheader, .project3-subheader {
   margin-top: 35px;
 }
 
@@ -40,7 +40,7 @@ body {
   margin-left: 442px;
 }
 
-.project1-description, .project2-description {
+.project1-description, .project2-description, .project3-description {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 400;
@@ -51,11 +51,15 @@ body {
   height: 200px;
 }
 
+/*.project3-description {
+  height: 400px;
+}*/
+
 .project2-description {
   margin-right: 0px;
 }
 
-.project1 .turnout {
+.project1 .turnout, .project3 .turnout {
   height: 230px;
   width: 400px;
   border-radius: 4px;
@@ -67,7 +71,7 @@ body {
   margin-top: -25px;
 }
 
-.project1-link {
+.project1-link, .project3-link {
   display: block;
   height: 230px;
   width: 400px;
@@ -90,13 +94,13 @@ body {
   box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
 }
 
-.project2-link, .project1-link {
+.project2-link, .project1-link, .project3-link {
  
   margin-left: 40px;
   margin-top: -90px;
 }
 
-.project2-description, .project1-description {
+.project2-description, .project1-description, .project3-description {
   line-height: 25px;
   margin-left: 42px;
 }
@@ -145,7 +149,7 @@ h2, h3 {
   left: 35px;
 }
 
-.project1 {
+.project1, .project3 {
   width: 100%;
 }
 
