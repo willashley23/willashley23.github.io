@@ -12,7 +12,7 @@ $(document).ready(function() {
             if( bottom_of_window > bottom_of_object ){
                 console.log("happy")
                 $(this).slideDown(3000).animate(
-                  {'opacity':'1'}, 500);
+                  {'opacity':'1'}, 700);
                  
             }
             
