@@ -238,6 +238,7 @@ p {color: white;}
 
 .skills_section {
   margin-top: 75px;
+  opacity: 0;
 }
 
 .skills_header {
@@ -294,8 +295,6 @@ ul li {
   bottom: 25px;
   margin-top: 30px;
 }
-
-/*1016.59*/
 
 @media screen and (max-width: 1439px) { 
   ul {
