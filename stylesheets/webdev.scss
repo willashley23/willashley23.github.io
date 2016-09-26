@@ -2,7 +2,7 @@ body {
   background-color: #333 !important;
   background-repeat: no-repeat;
   padding-bottom: 0px;
-  height: 3000px;
+  height: 2500px;
 }
 
 .hidden-project {
@@ -107,6 +107,7 @@ body {
 .project2-description, .project1-description, .project3-description {
   line-height: 25px;
   margin-left: 42px;
+  font-family: "Benton Sans";
 }
 
 h2, h3 {
@@ -248,7 +249,7 @@ p {color: white;}
   font-size: 75px;
 }
 
-#skills_hr {
+.skills_hr {
   width: 1200px;
 }
 
@@ -296,12 +297,112 @@ ul li {
   margin-top: 30px;
 }
 
+/* Edu & Contact */
+
+.hiddencol1, .hiddencol2 {
+  opacity: 0;
+}
+
+.bottom_container {
+  display: inline-flex;
+  flex-direction: row;
+  width: 85%;
+  margin-top: 40px;
+}
+
+.aa_logo {
+  width: 120px;
+  height: auto;
+  margin-right: 28px;
+}
+
+.edu_h1, .contact_h1 {
+  font-size: 65px;
+  font-family: "JockeyOne-Regular";
+  color: white;
+}
+
+.contact_col ul li {
+  list-style: none;
+  color: white;
+  display: block;
+  width: 150%;
+  margin-left: 0;
+}
+
+.contact_col ul {
+  padding-left: 0;
+}
+
+.contact_col ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact_col ul li:nth-child(1) {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+.contact_col ul li:nth-child(2) .contact_img {
+  position: relative;
+  bottom: 10px;
+}
+
+.contact_col ul li {
+  font-size: 38px;
+}
+
+.edu_col p {
+  font-family: "Benton Sans";
+  width: 90%;
+  font-size: 22px;
+}
+
+.edu_col {
+  margin-left: 10%;
+}
+
+.contact_col {
+  padding-left: 30px;
+}
+
+.contact_col h1 {
+  line-height: 1.66;
+  text-align: center;
+}
+
+.edu_h1 {
+  margin-left: 5%;
+}
+
+.contact_img {
+  width: 58px;
+  height: auto;
+  margin-right: 15px;
+}
+
+/* Media Queries */
+
 @media screen and (max-width: 1439px) { 
   ul {
     width: 1016.59px;
   }
-  #skills_hr {
+
+  .skills_hr {
     width: 1100px;
+  }
+
+  .contact_col {
+    width: 30%;
+  }
+
+  .edu_col {
+    margin-left: 13%;
+  }
+
+  .edu_col h1 {
+    margin-left: 0;
   }
 }
 
@@ -309,7 +410,7 @@ ul li {
   ul {
     width: 861.42px;
   }
-  #skills_hr {
+  .skills_hr {
     width: 900px;
     margin-left: 5%;
   }
