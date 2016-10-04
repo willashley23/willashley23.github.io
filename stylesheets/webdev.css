@@ -415,3 +415,68 @@ ul li {
     margin-left: 5%;
   }
 }
+
+
+@media screen and (max-width: 361px) { 
+  #col h1 {
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+
+  #col {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #col p {
+    font-size: 20px;
+    left: 15px;
+    top: 0px;
+  }
+
+  #letters .char19 {
+    font-size: 50px;
+  }
+
+  .project1 .turnout, .project2 .asteroids, .project3 .turnout {
+    height: 155px;
+    width: 280px;
+  }
+
+  .headers h2 {
+    font-size: 45px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .headers {
+    margin-left: 0;
+    margin-bottom: 150px;
+  }
+
+  .headers h3{
+    font-size: 15px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .project1-link {
+    height: auto;
+  }
+
+  .project1-description {
+    font-size: 15px;
+  }
+
+  .project1.project-wrapper {
+    display: block;
+  }
+
+  .project1-header, .project1-subheader {
+    font-size: 30px;
+  }
+
+}
+
