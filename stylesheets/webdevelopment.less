@@ -9,123 +9,11 @@ body {
   opacity: 0;
 }
 
-.outer-flex {
-  padding-top: 25px;
-}
-
-// .project-wrapper {
-//   display: flex;
-//   flex-direction: row;
-//   align-content: flex-start;
-//   flex-wrap: nowrap;
-// }
-
-.row-wrapper {
-  height: 70px;
-}
-
-.project1-header, .project2-header, .project3-header {
-  color: white;
-  font-size: 50px;
-  font-family: "JockeyOne-Regular";
-  height: 30px;
-  margin-top: 100px;
-}
-
-.project1-subheader, .project2-subheader, .project3-subheader {
-  color: white;
-}
-
-.project1-subheader, .project3-subheader {
-  margin-top: 35px;
-}
 
 .headers {
   margin-left: 442px;
 }
 
-.project1-description, .project2-description, .project3-description {
-  margin-top: 15px;
-  font-size: 20px;
-  font-weight: 400;
-  margin-right: 40px;
-}
-
-.project1-description {
-  height: 200px;
-}
-
-.project2-description {
-  margin-right: 0px;
-}
-
-.project1 .turnout, .project3 .turnout {
-  height: 230px;
-  width: 400px;
-  border-radius: 4px;
-  border: 1px solid grey;
-  box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
-}
-
-.turnout {
-  margin-top: -25px;
-}
-
-.project1-link, .project3-link {
-  display: block;
-  height: 230px;
-  width: 400px;
-  cursor: pointer;
-}
-
-.project2-header {
- height: auto;
- margin-top: 0px;
-}
-
-// .asteroids {
-//   margin-right: 40px;
-//   margin-left: 0px;
-//   margin-top: -10px;
-//   height: 230px;
-//   width: 400px;
-//   border-radius: 4px;
-//   border: 1px solid grey;
-//   box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
-// }
-
-.project2-link, .project1-link, .project3-link {
- 
-  margin-left: 40px;
-  margin-top: -90px;
-}
-
-.project2-description, .project1-description, .project3-description {
-  line-height: 25px;
-  margin-left: 42px;
-  font-family: "Benton Sans";
-}
-
-// h2, h3 {
-//   margin-left: 42px;
-// }
-
-.project2-subheader {
-  margin-top: 4px;
-  margin-bottom: 0px;
-}
-
-.project2 {
-  width: 100%;
-}
-
-.project2-wrapper {
-  opacity: 0;
-}
-
-// .p2 {
-//   margin-left: 0px;
-// }
 
 // refactor this
 #col {
@@ -143,17 +31,21 @@ body {
   text-align: center;
 }
 
-#col p {
-  font-size: 35px;
-  width: 100%;
-  position: relative;
-  top: 40px;
-  left: 35px;
+.main
+{
+    p 
+    {
+        font-size: 35px;
+        width: 100%;
+        position: relative;
+        top: 40px;
+        left: 35px;
+        font-family: "Avenir Next", Arial, sans-serif;
+        font-weight: 500;
+    }
 }
 
-// .project1, .project3 {
-//   width: 100%;
-// }
+// Rainbow letters! 
 
 #letters .char10 {
   color: #94C472;
@@ -232,6 +124,8 @@ p {color: white;}
   }
 }
 
+
+
 /* Skills */
 
 .skills_section {
@@ -289,6 +183,7 @@ ul li {
   bottom: 25px;
   margin-top: 30px;
 }
+
 
 /* Edu & Contact */
 
@@ -374,6 +269,7 @@ ul li {
   height: auto;
   margin-right: 15px;
 }
+
 
 /* Media Queries */
 
@@ -480,7 +376,7 @@ ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 150px;
 
     h1, h3
     {
@@ -496,7 +392,8 @@ ul li {
 
     h3
     {
-        font-family: "Benton Sans";
+        font-family: "Avenir Next", "Benton Sans";
+        font-style: italic;
         margin-bottom: 30px;
         font-size: 20px;
     }
@@ -525,6 +422,7 @@ ul li {
             flex-grow: 0;
             flex-shrink: 0;
             border-radius: 5px;
+            cursor: pointer;
 
             &.turnout
             {
@@ -549,7 +447,7 @@ ul li {
 
         .project-body
         {
-            font-family: "Benton Sans";
+            font-family: "Avenir Next", "Benton Sans";
             font-size: 20px;
         }
     }
