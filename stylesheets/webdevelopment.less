@@ -2,33 +2,33 @@
 
 body
 {
-  background-color: #333 !important;
-  background-repeat: no-repeat;
-  padding-bottom: 0px;
-  height: 2500px;
+    background-color: #333 !important;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    height: 2500px;
 }
 
 .hidden-project
 {
-  opacity: 0;
+    opacity: 0;
 }
 
 .main
 {
-  font-family: "JockeyOne-Regular";
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+    font-family: "JockeyOne-Regular";
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
  
-  h1 
-   {
-    font-size: 100px;
-    color: white;
-    width: 100%;
-    text-align: center;
-  }
+    h1 
+    {
+        font-size: 100px;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
 
-  p 
+    p 
     {
         font-size: 35px;
         width: 100%;
@@ -43,142 +43,112 @@ body
 
 /* Skills */
 
-.skills_section {
-  margin-top: 75px;
-  opacity: 0;
-  max-width: 1200px;
-  margin: auto;
-}
+.skills 
+{
 
-.skills_header {
-  color: white;
-  font-family: "JockeyOne-Regular";
-  text-align: center;
-  font-size: 75px;
-}
+    margin-top: 75px;
+    max-width: 1200px;
+    margin: auto;
 
-.skills_hr {
-  width: 1200px;
-}
-
-
-
-ul li {
-  color: white;
-  display: inline;
-  font-family: "JockeyOne-Regular";
-  font-size: 50px;
-  margin-left: 25px;
-  padding-top: 30px;
-}
-
-.skill_group {
-  display: flex;
-  max-width: 1220px;
-  margin: auto;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-align-content: flex-end;
-  align-content: flex-end;
-
-  ul 
-  {
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: wrap;
-    height: 600px;
-    align-items: baseline;
-    align-content: space-around;
-
-    li
+    h1
     {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        div
-        {
-            height: 60px;
-            width: 60px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            margin-right: 15px;
-        }
-
-        .react
-        {
-            background-image: url('../images/react1.png');
-        }
-
-        .redux
-        {
-            background-image: url('../images/redux.png');
-        }
-
-        .javascript
-        {
-            background-image: url('../images/js.png');
-        }
-
-        .rails
-        {
-            background-image: url('../images/rails2.png');
-        }
-
-        .sql
-        {
-            background-image: url('../images/postgres1.png');
-        }
-
-        .jquery
-        {
-            background-image: url('../images/jquery2.png')
-        }
-
-        .css
-        {
-            background-image: url('../images/css.png')
-        }
-
-        .html
-        {
-            background-image: url('../images/html.png')
-        }
-
-        .git
-        {
-            background-image: url('../images/git1.png')
-        }
-
-        .ruby
-        {
-            background-image: url('../images/ruby1.png')
-        }
+        color: white;
+        font-family: "JockeyOne-Regular";
+        text-align: center;
+        font-size: 75px;
     }
 
+    hr
+    {
+        width: 1200px;
+    }
 
-  }
+    ul 
+    {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 600px;
+        align-items: baseline;
+        align-content: space-around;
+
+        li
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: white;
+            font-family: "JockeyOne-Regular";
+            font-size: 50px;
+            margin-left: 25px;
+            padding-top: 30px;
+
+            div
+            {
+                height: 60px;
+                width: 60px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 15px;
+            }
+
+            .react
+            {
+                background-image: url('../images/react1.png');
+            }
+
+            .redux
+            {
+                background-image: url('../images/redux.png');
+            }
+
+            .javascript
+            {
+                background-image: url('../images/js.png');
+            }
+
+            .rails
+            {
+                background-image: url('../images/rails2.png');
+            }
+
+            .sql
+            {
+                background-image: url('../images/postgres1.png');
+            }
+
+            .jquery
+            {
+                background-image: url('../images/jquery2.png');
+            }
+
+            .css
+            {
+                background-image: url('../images/less.png');
+                background-position: center;
+                transform: scale(1.2);
+            }
+
+            .html
+            {
+                background-image: url('../images/html.png');
+            }
+
+            .git
+            {
+                background-image: url('../images/git1.png');
+            }
+
+            .ruby
+            {
+                background-image: url('../images/ruby1.png');
+            }
+        }
+
+    }
 }
-
-.skill_img {
-  width: 60px;
-  height: auto;
-  margin-right: 18px;
-  position: relative;
-  bottom: 25px;
-  margin-top: 30px;
-}
-
 
 /* Edu & Contact */
 
@@ -455,6 +425,7 @@ ul li {
          .project-description
         {
             margin-left: 0;
+            margin-right: 15px;
         }
     }
 

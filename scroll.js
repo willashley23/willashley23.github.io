@@ -9,17 +9,17 @@ $(document).ready(function() {
                 $(this).addClass("animated fadeInDown");
             }
         }); 
-        $('.hiddencol1').each( function(i) {
+        $('.hidden-col-left').each( function(i) {
           let bottomObject = $(this).offset().top + $(this).outerHeight();
           let bottomWindow = $(window).scrollTop() + $(window).height();
-          if(bottomWindow+200 > bottomObject) {
+          if(bottomWindow+50 > bottomObject) {
             $(this).addClass("animated fadeInLeft");
           }
         });
-        $('.hiddencol2').each( function(i) {
+        $('.hidden-col-right').each( function(i) {
           let bottomObject = $(this).offset().top + $(this).outerHeight();
           let bottomWindow = $(window).scrollTop() + $(window).height();
-          if(bottomWindow+200 > bottomObject) {
+          if(bottomWindow+50 > bottomObject) {
             $(this).addClass("animated fadeInRight");
           }
         });
