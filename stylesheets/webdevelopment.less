@@ -1,42 +1,38 @@
-body {
+@import "/stylesheets/letterEffects.less";
+
+body
+{
   background-color: #333 !important;
   background-repeat: no-repeat;
   padding-bottom: 0px;
   height: 2500px;
 }
 
-.hidden-project {
+.hidden-project
+{
   opacity: 0;
-}
-
-
-.headers {
-  margin-left: 442px;
-}
-
-
-// refactor this
-#col {
-  font-family: "JockeyOne-Regular";
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-#col h1 {
-  font-size: 100px;
-  position: relative;
-  color: white;
-  width: 100%;
-  text-align: center;
 }
 
 .main
 {
-    p 
+  font-family: "JockeyOne-Regular";
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+ 
+  h1 
+   {
+    font-size: 100px;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  p 
     {
         font-size: 35px;
         width: 100%;
+        color: white;
         position: relative;
         top: 40px;
         left: 35px;
@@ -45,92 +41,13 @@ body {
     }
 }
 
-// Rainbow letters! 
-
-#letters .char10 {
-  color: #94C472;
-}
-#letters .char11 {
-  color: #B33E92;
-}
-#letters .char12 {
-  color: #D18D61;
-}
-#letters .char13 {
-  color: #DA3C40;
-}
-#letters .char14 {
-  color: #1AAAA2;
-}
-#letters .char15 {
-  color: #1AAAA2;
-}
-
-p {color: white;}
-
-#letters .char19 {
-  font-weight: 100;
-  font-size:115px;
-  color: white;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-
-
 /* Skills */
 
 .skills_section {
   margin-top: 75px;
   opacity: 0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .skills_header {
@@ -144,10 +61,7 @@ p {color: white;}
   width: 1200px;
 }
 
-ul {
-  width: 85%;
-  margin-right: 2%;
-}
+
 
 ul li {
   color: white;
@@ -155,12 +69,13 @@ ul li {
   font-family: "JockeyOne-Regular";
   font-size: 50px;
   margin-left: 25px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .skill_group {
-  display: -webkit-flex;
   display: flex;
+  max-width: 1220px;
+  margin: auto;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
@@ -173,6 +88,86 @@ ul li {
   flex-flow: row wrap;
   -webkit-align-content: flex-end;
   align-content: flex-end;
+
+  ul 
+  {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 600px;
+    align-items: baseline;
+    align-content: space-around;
+
+    li
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        div
+        {
+            height: 60px;
+            width: 60px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-right: 15px;
+        }
+
+        .react
+        {
+            background-image: url('../images/react1.png');
+        }
+
+        .redux
+        {
+            background-image: url('../images/redux.png');
+        }
+
+        .javascript
+        {
+            background-image: url('../images/js.png');
+        }
+
+        .rails
+        {
+            background-image: url('../images/rails2.png');
+        }
+
+        .sql
+        {
+            background-image: url('../images/postgres1.png');
+        }
+
+        .jquery
+        {
+            background-image: url('../images/jquery2.png')
+        }
+
+        .css
+        {
+            background-image: url('../images/css.png')
+        }
+
+        .html
+        {
+            background-image: url('../images/html.png')
+        }
+
+        .git
+        {
+            background-image: url('../images/git1.png')
+        }
+
+        .ruby
+        {
+            background-image: url('../images/ruby1.png')
+        }
+    }
+
+
+  }
 }
 
 .skill_img {
@@ -411,6 +406,7 @@ ul li {
         .project-description
         {
             margin-left: 25px;
+            color: white;
         }
 
         .project-image
