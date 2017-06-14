@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Web Development</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+
   <link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css"/>
   <link rel="stylesheet" href="./stylesheets/animate.css">
-  <link rel="stylesheet" type="text/css" href="./stylesheets/webdev.css">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet/less" type="text/css" href="./stylesheets/webdevelopment.less">
   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
   <script type="text/javascript" src="jquery.lettering-0.6.min.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-84669515-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
 </head>
+
 <body>
-  <div class="containerr">
-   
+  <div>
     <div class="main" id="col">
       <h1 id="letters">{ "Hello World!" }<span class="blinking-cursor">|</span></h1>
-      <p>I am a web developer living in San Francisco and a recent graduate of App Academy. I am trained in the full stack and have experience with JavaScript, React, Redux, Rails, jQuery, Ruby, and HTML / CSS. This site houses all of my current personal projects. Feel free to take a look around!</p>
+      <p>I am a software developer living in San Francisco currently working as a front end engineer at Rheo. I am trained in the full stack and have experience with JavaScript, React, Redux, Rails, jQuery, Ruby, HTML / CSS, and LESS.</p>
     </div>
-  
   </div>
-  <div class="outer-flex">
+
+  <!-- <div class="outer-flex">
   <div class="headers">
        <h2 class="project1-header">Turnout</h2>
        <h3 class="project1-subheader">(Rails, React, Redux, PostgreSQL, Cloudinary)</h3>
@@ -58,6 +52,60 @@
        <a href="https://chrome.google.com/webstore/detail/identifont/nmmdmcgnpdhlhcaaklfkhiemkkiecpca" class="project3-link"><img src="./images/identifont.png" class="turnout" /></a>
        <p class="project3-description">IdentiFont is a chrome extension that saves web developers, UI/UX engineers, and typeface enthusiasts the headache of having to dig through a web page's HTLM in order to find that coveted font. Simply hover over a section of text, and IdentiFont will respond with a popup indicating the font-family.</p>
      </div>
+   </div>
+   </div> -->
+
+   <div class="projects">
+        <div class="project-wrapper hidden-project">
+            <div class="project-image turnout">
+                </div>
+            <div class="project-description">
+                <div class="project-headers">
+                    <h1 class="project-title">Turnout</h1>
+                    <h3 class="project-subtitle">(Rails, React, Redux, PostgreSQL, Cloudinary)</h3>
+                </div>
+                <div>
+                    <p class="project-body">
+                        Turnout is a full stack web application that allows users to find and create interesting events in their area. The site is replete with features that allow a deep level of user interaction, including bookmarks, tickets, tags, and search.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-wrapper hidden-project">
+            <div class="project-image asteroids">
+                <img src="">
+            </div>
+            <div class="project-description">
+                <div class="project-headers">
+                    <h1 class="project-title">8-bit Asteroids</h1>
+                    <h3 class="project-subtitle">(JavaScript, Canvas)</h3>
+                </div>
+                <div>
+                    <p class="project-body">
+                        A recreation of the Atari classic, my take on Asteroids combines the retro feel of the original game with a few personal twists added in. The game was written entirly in vanilla JavaScript and Canvas. All of the game logic, including phyiscs for collision detection, vectoring, spawn percentage, and object rotation, were all hand-rolled in order to create an authentic 79' throwback.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-wrapper hidden-project">
+            <div class="project-image identifont">
+                <img src="">
+            </div>
+            <div class="project-description">
+                <div class="project-headers">
+                    <h1 class="project-title">IdentiFont</h1>
+                    <h3 class="project-subtitle">(JavaScript, Chrome Extension)</h3>
+                </div>
+                <div>
+                    <p class="project-body">
+                        IdentiFont is a chrome extension that saves web developers, UI/UX engineers, and typeface enthusiasts the headache of having to dig through a web page's HTLM in order to find that coveted font. Simply hover over a section of text, and IdentiFont will respond with a popup indicating the font-family.
+                    </p>
+                </div>
+            </div>
+        </div>
+
    </div>
 
    <div class="skills_section hidden-project">
