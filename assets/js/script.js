@@ -1,37 +1,36 @@
-$(function(){
-	
-	// container is the DOM element;
-	// userText is the textbox
-	
-	var container = $("#letters");
-		userText = $('#userText'); 
-	
-	// Shuffle the contents of container
-	container.shuffleLetters();
+$(document).ready(
 
-	// Bind events
-	userText.click(function () {
-		
-	  userText.val("");
-	  
-	}).bind('keypress',function(e){
-		
-		if(e.keyCode == 13){
-			
-			// The return key was pressed
-			
-			container.shuffleLetters({
-				"text": userText.val()
-			});
-			
-			userText.val("");
-		}
+    function()
+    {
+    	var container = $("#letters");
+    		userText = $('#userText'); 
+    	
+        container.shuffleLetters();
 
-	}).hide();
+        $('.down-arrow').click(
+            function()
+            {
+                $(this).hide();
+            }
+       );
 
-	// Leave a 4 second pause
+        $('#pulsing-arrow').one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
 
-	
-	
-});
+            function()
+            {
+                $('#pulsing-arrow').addClass("loaded"); 
+            }
+        );
+
+        $("#pulsing-arrow").click(
+            
+            function() {
+
+                $('html, body').animate({
+                    scrollTop: $("#arrow-anchor").offset().top
+                }, 2000);
+            }
+        );
+    }
+);
 

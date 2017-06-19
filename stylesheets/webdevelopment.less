@@ -51,6 +51,21 @@ body
     flex-shrink: 0;
 }
 
+.animation-pulse
+{
+    -webkit-animation: pulseInfinite 1.5s infinite;
+    -moz-animation:    pulseInfinite 1.5s infinite;
+    -o-animation:      pulseInfinite 1.5s infinite;
+    animation:         pulseInfinite 1.5s infinite;
+}
+
+@keyframes pulseInfinite
+{
+   50% { 
+      transform: scale(1.2);
+   }
+}
+
 .main
 {
     font-family: "JockeyOne-Regular";
@@ -73,9 +88,30 @@ body
         color: white;
         position: relative;
         top: 40px;
-        left: 35px;
         font-family: "Avenir Next", Arial, sans-serif;
         font-weight: 500;
+        text-align: center;
+    }
+
+    p:nth-of-type(2)
+    {
+        font-size: 28px;
+    }
+
+    .down-arrow
+    {
+        .section-img('../images/arrow.svg');
+        height: 60px;
+        width: 100%;
+        background-position: center;
+        cursor: pointer;
+        margin-top: 120px;
+        display: inline-block;
+
+        &.loaded
+        {
+            .animation-pulse;
+        }
     }
 }
 
@@ -104,11 +140,12 @@ body
         flex-direction: row;
         justify-content: center;
         align-items: center; 
+        margin-top: 100px;
 
 
         .bio-paragraphs
         {
-            margin-right: 50px;
+            margin-right: 10%;
 
             .bio-body:nth-of-type(1)
             {
@@ -588,6 +625,9 @@ body
     }
 
 }
+
+
+
 
 
 

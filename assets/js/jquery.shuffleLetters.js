@@ -14,7 +14,11 @@
 			"step"		: 20,			// How many times should the letters be changed
 			"fps"		: 25,			// Frames Per Second
 			"text"		: "", 			// Use this text instead of the contents
-			"callback"	: function(){$("#letters").lettering()}	// Run once the animation is complete
+			"callback"	: function()
+                {
+                    $("#letters").lettering();
+                    $('.main-subtitle').addClass("animated fadeInDown").removeClass("hidden-project"); 
+                }	
 		},prop)
 		
 		return this.each(function(){
