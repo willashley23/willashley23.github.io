@@ -17,9 +17,14 @@
 			"callback"	: function()
                 {
                     $("#letters").lettering();
-                    $('.main-subtitle').addClass("animated fadeInDown").removeClass("hidden-project"); 
+                    setTimeout(
+                        function()
+                        {
+                            $('.main-subtitle').addClass("animated fadeInDown").removeClass("hidden-project"); 
+                        }, 300
+                    );
                 }	
-		},prop)
+		},prop);
 		
 		return this.each(function(){
 			

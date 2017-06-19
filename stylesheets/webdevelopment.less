@@ -66,54 +66,65 @@ body
    }
 }
 
-.main
+.splash-wrapper
 {
-    font-family: "JockeyOne-Regular";
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
- 
-    h1 
+    height: 101vh;
+    display: flex;
+    align-items: center; 
+    
+    .splash
     {
-        font-size: 100px;
-        color: white;
-        width: 100%;
-        text-align: center;
-    }
-
-    p 
-    {
-        font-size: 35px;
-        width: 100%;
-        color: white;
-        position: relative;
-        top: 40px;
-        font-family: "Avenir Next", Arial, sans-serif;
-        font-weight: 500;
-        text-align: center;
-    }
-
-    p:nth-of-type(2)
-    {
-        font-size: 28px;
-    }
-
-    .down-arrow
-    {
-        .section-img('../images/arrow.svg');
-        height: 60px;
-        width: 100%;
-        background-position: center;
-        cursor: pointer;
-        margin-top: 120px;
-        display: inline-block;
-
-        &.loaded
+        font-family: "JockeyOne-Regular";
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        // height: 101vh;
+        // display: flex;
+        // align-items: center;
+     
+        h1 
         {
-            .animation-pulse;
+            font-size: 100px;
+            color: white;
+            width: 100%;
+            text-align: center;
         }
-    }
+
+        p 
+        {
+            font-size: 35px;
+            width: 100%;
+            color: white;
+            position: relative;
+            top: 40px;
+            font-family: "Avenir Next", Arial, sans-serif;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        p:nth-of-type(2)
+        {
+            font-size: 28px;
+        }
+
+        .down-arrow
+        {
+            .section-img('../images/arrow.svg');
+            height: 60px;
+            width: 100%;
+            background-position: center;
+            cursor: pointer;
+            margin-top: 120px;
+            display: inline-block;
+
+            &.loaded
+            {
+                .animation-pulse;
+            }
+        }
+    }    
 }
+
 
 .bio
 {

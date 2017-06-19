@@ -10,7 +10,7 @@ $(document).ready(
         $('.down-arrow').click(
             function()
             {
-                $(this).hide();
+                $(this).css("visibility", "hidden");
             }
        );
 
