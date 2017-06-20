@@ -27,8 +27,8 @@ $(document).ready(
             function() {
 
                 $('html, body').animate({
-                    scrollTop: $("#arrow-anchor").offset().top
-                }, 2000);
+                    scrollTop: $("#arrow-anchor").offset().top-100
+                }, 1000);
             }
         );
 

@@ -12,7 +12,7 @@
 		
 		var options = $.extend({
 			"step"		: 20,			// How many times should the letters be changed
-			"fps"		: 25,			// Frames Per Second
+			"fps"		: 28,			// Frames Per Second
 			"text"		: "", 			// Use this text instead of the contents
 			"callback"	: function()
                 {
