@@ -512,7 +512,7 @@ and (orientation : portrait)
     {
         .splash
         {
-            width: 95%;
+            width: 100%;
             margin: 0;
 
             h1 
@@ -556,6 +556,7 @@ and (orientation : portrait)
         .bio-columns
         {
             flex-direction: column-reverse;
+            margin-bottom: 100px;
 
             .bio-paragraphs
             {
@@ -563,8 +564,8 @@ and (orientation : portrait)
 
                 .bio-body
                 {
-                    font-size: 12px;
-                    width: 95%;
+                    font-size: 16px;
+                    width: 100%;
                     margin-right: auto;
                 }
 
@@ -591,7 +592,7 @@ and (orientation : portrait)
         h1
         {
             font-size: 35px;
-            width: 95%;
+            width: 100%;
         }
 
         hr
@@ -604,11 +605,11 @@ and (orientation : portrait)
         {
             height: 320px;
             align-content: center;
-            width: 90%;
+            width: 100%;
 
             li 
             {
-                font-size: 20px;
+                font-size: 22px;
 
                 div 
                 {
@@ -629,7 +630,7 @@ and (orientation : portrait)
             &.project-header
             {
                 font-size: 35px;
-                width: 95%;
+                width: 100%;
                 margin-bottom: 25px;
             }
         }
@@ -642,11 +643,12 @@ and (orientation : portrait)
         .project-wrapper
         {
             display: block;
-            width: 95%;
+            width: 100%;
 
             .project-image
             {
-                width: 94%;
+                width: 95%;
+                margin: auto;
             }
 
             .project-body
@@ -668,14 +670,17 @@ and (orientation : portrait)
 
     footer
     {
-        width: 95%;
+        width: 100%;
     }
 }
 
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
-and (orientation : portrait) { /* STYLES GO HERE */ }
+and (orientation : portrait) 
+{ 
+ 
+}
 
 @media only screen 
 and (min-device-width : 320px) 
